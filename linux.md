@@ -1,58 +1,56 @@
 # linux
 
-Created: Nov 22, 2019 12:32 PM
+## **Look permissions**
 
-- **Look permissions**
+```bash
+ls -la
+```
 
-    ```bash
-    ls -la
-    ```
+## **Change permission recursive**
 
-- **Change permission recursive**
+```bash
+sudo chmod o+rwx -R anomaly_detection_poc/
+```
 
-    ```bash
-    sudo chmod o+rwx -R anomaly_detection_poc/
-    ```
+## **Get all sizes of folders/files:**
 
-- **Get all sizes of folders/files:**
+```bash
+du -hsc *
+```
 
-    ```bash
-    du -hsc *
-    ```
+## **Get all sizes of folders**
 
-- **Get all sizes of folders**
+```bash
+sudo du -hs * | sort -h
+```
 
-    ```bash
-    sudo du -hs * | sort -h
-    ```
+## **Delete folder recurcively**
 
-- **Delete folder recurcively**
+```bash
+rm -R folder_name
+```
 
-    ```bash
-    rm -R folder_name
-    ```
+## **Delete files by mask**
 
-- Delete files by mask
+```bash
+sudo find . -name '*.png' -type f -delete
+```
 
-    ```bash
-    sudo find . -name '*.png' -type f -delete
-    ```
+## **Unpack .tgz or .gz**
 
-- Unpack .tgz or .gz
+```bash
+tar zxvf backups.tgz -C /tmp/data
+gzip -d file.gz
+```
 
-    ```bash
-    tar zxvf backups.tgz -C /tmp/data
-    gzip -d file.gz
-    ```
+## **Ssh privat key gen**
 
-- **Ssh privat key gen**
+у себя на машине:
 
-    у себя на машине:
+ssh-keygen -t rsa
 
-    ssh-keygen -t rsa
+2. копируешь
+содержимое ~/.ssh/id_rsa.pub
 
-    2. копируешь
-    содержимое ~/.ssh/id_rsa.pub
-
-    3 добавляешь
-    скопированный ключик в ~/.ssh/authorized_keys на сервере
+3 добавляешь
+скопированный ключик в ~/.ssh/authorized_keys на сервере
