@@ -1,7 +1,7 @@
 ## git commit author
 
 ```bash
-git commit file --author="Violetta Mishechkina <email>"
+git commit --author="Violetta Mishechkina <email>"
 ```
 ## update fork from original project
 
