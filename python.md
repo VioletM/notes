@@ -1,17 +1,17 @@
 ## **Pandas display max cols, rows**
 
-    ```python
+```python
     pd.set_option("display.max_columns", 999)
     pd.set_option("display.max_rows", 999)
-    ```
+```
 
 ## **plt tricks**
 
-    ```python
-    fig, ax = plt.subplots(figsize=(width, height)) 
+```python
+fig, ax = plt.subplots(figsize=(width, height)) 
 
-    plt.xticks(rotation='vertical')
-    ```
+plt.xticks(rotation='vertical')
+```
     
  ## **Telegrambot Alert**
 
