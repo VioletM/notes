@@ -1,8 +1,8 @@
 ## **Pandas display max cols, rows**
 
 ```python
-    pd.set_option("display.max_columns", 999)
-    pd.set_option("display.max_rows", 999)
+pd.set_option("display.max_columns", 999)
+pd.set_option("display.max_rows", 999)
 ```
 
 ## **plt tricks**
