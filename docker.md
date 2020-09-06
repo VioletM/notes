@@ -7,7 +7,7 @@ docker cp convert_msgpack_to_table.py b226900c254a:/usr/mt_client/ad_runtime/con
 - docker build
 
 ```bash
-docker build -t mtclient_test -f [Dockerfile.mt](http://dockerfile.mt/) .
+docker build -t mtclient_test -f Dockerfile.mt .
 ```
 
 - docker open bash
