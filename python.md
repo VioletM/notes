@@ -63,3 +63,11 @@ logging.basicConfig(
             ]
         )
 ```
+
+## Pyenv
+
+```bash
+pyenv install -v 3.6.8
+pyenv versions
+pyenv uninstall nsi-env
+```
