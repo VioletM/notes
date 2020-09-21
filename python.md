@@ -70,4 +70,5 @@ logging.basicConfig(
 pyenv install -v 3.6.8
 pyenv versions
 pyenv uninstall nsi-env
+pyenv virtualenv <python_version> <environment_name>
 ```
