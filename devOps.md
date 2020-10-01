@@ -40,3 +40,6 @@ docker pull grafana/grafana
 docker run -d --name grafana -p 3000:3000 --network="host" grafana/grafana
 # grafana is available on localhost:3000
 ```
+## **MLFlow**
+
+https://towardsdatascience.com/setup-mlflow-in-production-d72aecde7fef
