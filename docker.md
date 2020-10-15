@@ -27,3 +27,7 @@ docker run -d mtclient_test
 ```bash
 docker run -d --name grafana -p 3000:3000 --network="host" grafana/grafana
 ```
+
+```bash
+docker run -it --rm --entrypoint="/bin/bash" image_name
+```
