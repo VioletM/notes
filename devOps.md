@@ -23,7 +23,7 @@ source activate idp
 
 ```bash
 jupyter notebook --no-browser --port=8889
-ssh **-**N **-**f **-**L localhost**:**YYYY**:**localhost**:**XXXX remoteuser**@**remotehost
+ssh -N -f -L localhost:YYYY:localhost:XXXX user@server_ip
 #open browser on http://localhost:YYYY
 ```
 
