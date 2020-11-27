@@ -1,5 +1,14 @@
 # devOps
 
+## **submodule in gitlab-ci**
+```bash
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa_ci
+ssh-keyscan -H gitlab.com >> ~/.ssh/known_hosts
+git submodule sync --recursive
+git submodule update --init --recursive
+```
+
 ## **Активация окружения на конде**
 
 ```bash
