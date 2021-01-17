@@ -13,3 +13,4 @@ git merge upstream/master
 ```
 ## magic
 [Split existing commit](https://stackoverflow.com/questions/6217156/break-a-previous-commit-into-multiple-commits) (force push after that)
+[Undo git reset](https://stackoverflow.com/questions/2510276/how-to-undo-git-reset)
