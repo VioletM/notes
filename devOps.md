@@ -52,3 +52,6 @@ docker run -d --name grafana -p 3000:3000 --network="host" grafana/grafana
 ## **MLFlow**
 
 https://towardsdatascience.com/setup-mlflow-in-production-d72aecde7fef
+
+## **Postgres**
+Data location: `/var/lib/postgresql/data`
