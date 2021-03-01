@@ -48,7 +48,7 @@ tar zxvf backups.tgz -C /tmp/data
 gzip -d file.gz
 ```
 
-## **Ssh privat key gen**
+## **Ssh private key gen**
 
 у себя на машине:
 
