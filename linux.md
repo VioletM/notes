@@ -2,7 +2,7 @@
 
 ## **Run bash command with SIGHUP ignoring**
 ```bash
-nohup my command&
+nohup my_command&
 ```
 
 ## **Look permissions**
