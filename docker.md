@@ -22,6 +22,11 @@ docker exec -ti b226900c254a bash
 docker run -d mtclient_test
 ```
 
+- run with overwriting entrypoint
+```bash
+docker run -it --entrypoint /bin/bash <image_name>
+```
+
 - docker with access to localhost
 
 ```bash
