@@ -48,6 +48,11 @@ tar zxvf backups.tgz -C /tmp/data
 gzip -d file.gz
 ```
 
+# **Get all ports**
+```
+ sudo lsof -nP -i | grep LISTEN
+```
+
 ## **Ssh private key gen**
 
 у себя на машине:
