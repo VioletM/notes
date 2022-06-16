@@ -55,3 +55,20 @@ https://towardsdatascience.com/setup-mlflow-in-production-d72aecde7fef
 
 ## **Postgres**
 Data location: `/var/lib/postgresql/data`
+
+## **Autossh**
+```
+# kill autossh tunnel
+ps aux | grep autossh
+kill -3 PID
+```
+
+```
+# forward XXXX port of your machine to YYYY port of hostname@host_ip machine
+autossh -M 0 -f -N -L XXXX:localhost:YYYY hostname@host_ip
+```
+
+```
+# in cron:
+@reboot autossh -M 0 -f -N -L XXXX:localhost:YYYY hostname@host_ip
+```
