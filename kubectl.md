@@ -17,3 +17,9 @@ kubectl logs -f <pod_name> -n <namespace>
 ```bash
 kubectl delete pod <pod_name>
 ```
+
+- port forward
+
+```
+kubectl port-forward apm-server-apm-server-54d8cb6db4-dfk9c 8899:8200 -n elastic &
+```
