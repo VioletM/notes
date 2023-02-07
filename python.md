@@ -73,3 +73,8 @@ pyenv uninstall nsi-env
 pyenv virtualenv <python_version> <environment_name>
 pyenv shell nsi-env
 ```
+
+## Lint ignore
+```
+flake8: # noqa: C901
+```
