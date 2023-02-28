@@ -77,4 +77,5 @@ pyenv shell nsi-env
 ## Lint ignore
 ```
 flake8: # noqa: C901
+pylint: # pylint: disable=W0212
 ```
