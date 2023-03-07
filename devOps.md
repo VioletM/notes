@@ -72,3 +72,16 @@ autossh -M 0 -f -N -L XXXX:localhost:YYYY hostname@host_ip
 # in cron:
 @reboot autossh -M 0 -f -N -L XXXX:localhost:YYYY hostname@host_ip
 ```
+
+## Screen
+
+```
+# create screen named session
+screen -S session_name
+
+# list all sessions
+screen -ls
+
+# attach 
+screen -r 1029
+```
