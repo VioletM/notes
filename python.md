@@ -78,4 +78,5 @@ pyenv shell nsi-env
 ```
 flake8: # noqa: C901
 pylint: # pylint: disable=W0212
+mypy: # type: ignore[<code>]
 ```
