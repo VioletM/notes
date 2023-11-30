@@ -80,3 +80,5 @@ flake8: # noqa: C901
 pylint: # pylint: disable=W0212
 mypy: # type: ignore[<code>]
 ```
+## Format
+print(f"Some line {num :.2%}")
